@@ -129,7 +129,7 @@
 
 
 //Przykład użycia:
-
+/*
 var newCategory1 = addCategory('Kategoria1');
 var newCategory2 = addCategory('Kategoria2');
 
@@ -138,7 +138,7 @@ addBookToCategory(newCategory2, 'Tytul2', 13);
 reduceTimeToExecute(newAircraft1, 20);
 
 var sxy2a = addWorkToAircraft(newAircraft2, 'serviceXY2a', 130);
-var sxy2b = addWorkToAircraft(newAircraft2, 'serviceXY2b', 160);
+var sxy2b = addWorkToAircraft(newAircraft2, 'serviceXY2b', 160);*/
 /*reduceTimeToExecute(newAircraft2, 20);
 
 getAircraftsForRepairs(100); // [ newAircraft1 ]
