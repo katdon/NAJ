@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Kolokwium - wypożyczalnia samochodów</title>
+
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+	</head>
+
+	<body>
+		<!--<div class="h2">
+			<h2>Dodawanie</h2>
+		</div>-->
+		<div class="h2">Dodawanie</div>
+		<div class="form">
+			<table>
+				<tbody>
+					<tr>
+						<td><label for="model">Model</label></td>
+						<td><label>Marka</label></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="model"></td>
+						<td><select id="marki"></select></td>
+						<td><div class="form-button-container"><button id="addCar">Dodaj</button></div></td>
+					</tr>
+				</tbody>
+			</table>
+            <!--<div>
+                <label for="model">Model</label>
+                <input type="text" id="model">
+            </div>
+			<div>
+				<label>Marka</label>
+                <select id="marki"></select>
+            </div>
+            
+            <div class="form-button-container">
+                <button id="addCar">Dodaj samochód</button>
+            </div>-->
+        </div>
+        
+        <div class="car-list">
+            <label for="carList">Samochody:</label>
+            <ul id="carList"></ul>
+        </div>
+        <div class="car-check">
+            <select id="markiForCheck"></select>
+            <button id="checkCar">Filtrowanie</button>
+            <ul id="carCheckList"></ul>
+        </div>
+	</body>
+
+	<script type="text/javascript" src="js/marki.js"></script>
+    <script type="text/javascript" src="js/templates.js"></script>
+    <script type="text/javascript" src="js/readDOM.js"></script>
+    <script type="text/javascript" src="js/events.js"></script>
+</html>

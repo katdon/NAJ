@@ -1,0 +1,55 @@
+.h2 {
+	color: blue;
+	margin: 100 auto;
+    width: 400px;
+	text-align:center;
+	font-size: xx-large;
+	font-weight: bold;
+}
+.form {
+    margin: 100 auto;
+    width: 400px;
+}
+
+.form div {
+    margin: 10px 0;
+}
+
+.form div label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+.form div input, select {
+    width: 200px;
+}
+
+.form-button-container {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.car-data {
+    display: inline-block;
+    width: 250px;
+    margin-top: 5px;
+}
+
+.car-remove {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.car-list {
+    margin-top: 50px;
+}
+ul > :nth-child(2n) {
+	background: dodgerblue;
+}
